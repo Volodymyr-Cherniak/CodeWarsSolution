@@ -16,5 +16,6 @@ const sequenceSum = (begin, end, step) => {
   return result;
 };
 ```
-
+---
+* https://www.codewars.com/kata/mexican-wave/train/javascript
 
