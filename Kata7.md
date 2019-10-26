@@ -12,4 +12,4 @@ const sequenceSum = (begin, end, step) => {
   return result;
 };
 ```
-
+### great
