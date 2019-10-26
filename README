@@ -2,7 +2,7 @@ Hello!
 
 Its new commit
 
-#My works in CodeWars
+# My works in CodeWars
 
 * https://www.codewars.com/kata/sum-of-a-sequence/train/javascript
 
@@ -16,6 +16,3 @@ const sequenceSum = (begin, end, step) => {
   return result;
 };
 ```
----
-* https://www.codewars.com/kata/mexican-wave/train/javascript
-
