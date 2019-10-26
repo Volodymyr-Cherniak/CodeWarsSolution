@@ -1,9 +1,5 @@
-Hello!
-
-Its new commit
-
 # My works in CodeWars
-
+## Kata 7
 * https://www.codewars.com/kata/sum-of-a-sequence/train/javascript
 
 ```js
@@ -16,3 +12,4 @@ const sequenceSum = (begin, end, step) => {
   return result;
 };
 ```
+
