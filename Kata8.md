@@ -1,5 +1,5 @@
 # CodeWars Tasks
-## Kata 6
+## Kata 8
 * link
 ```js
 console.log('Vova');
