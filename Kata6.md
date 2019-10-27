@@ -45,3 +45,18 @@ function solution(r){
   return sum;
 }
 ```
+* https://www.codewars.com/kata/multi-tap-keypad-text-entry-on-an-old-mobile-phone/train/javascript
+```js
+function presses(phrase) {
+   let res = phrase.replace(/[23456S8Z]/gi, '4')
+                   .replace(/[79]/gi,'5')
+                   .replace(/[ADGJMPTW ]/gi,'1')
+                   .replace(/[BEHKNQUX0]/gi, '2')
+                   .replace(/[CFILORVY]/gi,'3')
+                   .split('')
+                   .reduce(function(a, b) {
+                             return +a + +b;
+                           });
+  return +res;
+};
+```
