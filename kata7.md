@@ -12,3 +12,12 @@ const sequenceSum = (begin, end, step) => {
   return result;
 };
 ```
+* https://www.codewars.com/kata/stop-worrying/train/javascript
+### beta
+```````js
+function worries(str){
+  let arr = ["Making last-minute changes","Sitting in a dark room and shaking","Crying","Laughing hysterically","Not eating"];
+  if (arr.includes(str)) return "Stop worrying, everything will be all right!";
+  return "Do you really care?";
+}
+```````
