@@ -81,3 +81,11 @@ function getChange(m) {
    console.log(arr.join('+')); //return arr.join('+');
 }
 ```
+* https://www.codewars.com/kata/smallest-pair-sum/train/javascript
+```js
+function smallestPairSum(number){
+ 
+ number.sort((a,b)=>a-b);
+ return number[0] + number[1];
+}
+```
