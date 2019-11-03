@@ -21,3 +21,24 @@ function worries(str){
   return "Do you really care?";
 }
 ```````
+* https://www.codewars.com/kata/sort-out-the-men-from-boys-1/train/javascript
+```js
+function menFromBoys(arr){
+  let arr2 = [],
+      arr3 = [],
+      arr8 = [];
+  
+  arr.forEach(el =>{
+    if(!arr8.includes(el)) arr8.push(el);
+  });
+    
+  arr8.forEach(el => {
+    if(el % 2) arr3.push(el);
+    else arr2.push(el);
+  })
+ 
+  arr2.sort((a,b)=>a-b);
+  arr3.sort((a,b)=>b-a);
+  return arr2.concat(arr3);
+}
+```
