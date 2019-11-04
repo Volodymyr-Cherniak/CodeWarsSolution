@@ -42,3 +42,7 @@ function menFromBoys(arr){
   return arr2.concat(arr3);
 }
 ```
+* https://www.codewars.com/kata/v-a-p-o-r-c-o-d-e/train/javascript
+```js
+const vaporcode = s => s.toUpperCase().replace(/\s/g,'').split('').join('  ');
+```
