@@ -60,3 +60,15 @@ function presses(phrase) {
   return +res;
 };
 ```
+* https://www.codewars.com/kata/break-camelcase/train/javascript
+```js
+function solution(str) {
+    let strWithSpace = [];
+    
+    for (let i in str){
+      if (str[i] === str[i].toUpperCase()) strWithSpace.push(' ');
+        strWithSpace.push(str[i]);
+    }
+    return strWithSpace.join('');
+}
+```
