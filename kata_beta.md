@@ -89,3 +89,10 @@ function smallestPairSum(number){
  return number[0] + number[1];
 }
 ```
+* https://www.codewars.com/kata/holy-cats/train/javascript
+```js
+function holycats(input){
+  let hollyCats = input.filter(el => el.split('').includes('_'));
+  return hollyCats;
+}
+```
