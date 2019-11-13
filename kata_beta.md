@@ -96,3 +96,7 @@ function holycats(input){
   return hollyCats;
 }
 ```
+* https://www.codewars.com/kata/is-it-a-rainbow/train/javascript
+```js
+const sortRainbow = colour => colour.join('') === 'redorangeyellowgreenblueindigoviolet';
+```
