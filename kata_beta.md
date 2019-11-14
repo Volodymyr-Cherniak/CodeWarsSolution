@@ -105,3 +105,14 @@ const sortRainbow = colour => colour.join('') === 'redorangeyellowgreenblueindig
 ```js
 const replaceVogals = str => str.replace(/[aeiou]/g,'?')
 ```
+
+* https://www.codewars.com/kata/583845d32fb0bab919000004/train/javascript
+```js
+function oddOnly(arr1){
+  let arr = [];
+  arr1.forEach(el => {
+    if(el % 2 !== 0) arr.push(el);
+  });
+  return arr;
+}
+```
