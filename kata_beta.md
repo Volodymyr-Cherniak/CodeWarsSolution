@@ -100,3 +100,8 @@ function holycats(input){
 ```js
 const sortRainbow = colour => colour.join('') === 'redorangeyellowgreenblueindigoviolet';
 ```
+
+* https://www.codewars.com/kata/replace-vowels/train/javascript
+```js
+const replaceVogals = str => str.replace(/[aeiou]/g,'?')
+```
