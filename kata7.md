@@ -59,3 +59,14 @@ var gimme = function (inp) {
  return inp.indexOf(num);
 };
 ```
+* https://www.codewars.com/kata/testing-1-2-3/train/javascript
+```js
+var number=function(array){
+  let arr1 = [];
+  if (array.length === 0) return [];
+  for(let i = 0; i < array.length; i++){
+     arr1.push(`${i + 1}: ${array[i]}`);
+   }
+ return arr1;
+}
+```
