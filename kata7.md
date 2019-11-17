@@ -70,3 +70,8 @@ var number=function(array){
  return arr1;
 }
 ```
+* https://www.codewars.com/kata/simple-fun-number-176-reverse-letter/train/javascript
+
+```js
+const reverseLetter = str => str.replace(/\d/gi,'').replace(/\W/gi,'').replace(/_/gi,'').split('').reverse().join('');
+```
