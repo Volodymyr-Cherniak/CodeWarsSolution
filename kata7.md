@@ -75,3 +75,14 @@ var number=function(array){
 ```js
 const reverseLetter = str => str.replace(/\d/gi,'').replace(/\W/gi,'').replace(/_/gi,'').split('').reverse().join('');
 ```
+* https://www.codewars.com/kata/lost-number-in-number-sequence/train/javascript
+
+```js
+function findDeletedNumber(arr, mixArr) {
+ mixArr.sort((a, b) => a - b);
+ for(let i in arr){
+   if(arr[i] !== mixArr[i]) return arr[i];
+ }
+ return 0;
+}
+```
