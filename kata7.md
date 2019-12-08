@@ -107,3 +107,17 @@ function getSum(a, b){
   return num;
 }
 ```
+* https://www.codewars.com/kata/sort-by-last-char/train/javascript
+```js
+function last(x){
+   return x.split(' ')
+           .map(el => el.split('').reverse().join(''))
+           .sort(Comparator)
+           .map(el => el.split('').reverse().join(''));
+}
+function Comparator(a, b) {
+   if (a[0] < b[0]) return -1;
+   if (a[0] > b[0]) return 1;
+   return 0;
+ }
+```
