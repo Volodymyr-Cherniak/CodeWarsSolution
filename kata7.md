@@ -86,3 +86,24 @@ function findDeletedNumber(arr, mixArr) {
  return 0;
 }
 ```
+* https://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers/train/javascript
+
+```js
+function getSum(a, b){
+  if (a === b) return a;
+  let arr = [];
+  let num = 0;
+  if(a < b){
+   for(let i = a; i <= b; i++){
+     arr.push(i);
+   }
+  }
+  else {
+    for(let i = b; i <= a; i++){
+     arr.push(i);
+    } 
+  }
+  num = arr.reduce((a, b) => a + b);
+  return num;
+}
+```
