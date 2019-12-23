@@ -72,3 +72,19 @@ function solution(str) {
     return strWithSpace.join('');
 }
 ```
+* https://www.codewars.com/kata/triple-trouble-1/train/javascript
+```js
+function tripledouble(num1, num2){
+  num1 = num1 + '';
+  num2 = num2 + '';
+  
+  for (let i = 0; i < num1.length; i++){
+
+    for(let j = 0; j < num2.length; j++){
+
+      if ((num2[j] === num1[i]) && (num2[j+1] === num1[i+1]) && (num2[j+1] === num1[i+2]) && (num2[j] === num1[i+2])) return 1;
+    }
+  }
+  return 0;
+}
+```
