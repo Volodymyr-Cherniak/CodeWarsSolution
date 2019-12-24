@@ -88,3 +88,21 @@ function tripledouble(num1, num2){
   return 0;
 }
 ```
+* https://www.codewars.com/kata/srot-the-inner-ctonnet-in-dsnnieedcg-oredr/train/javascript
+```js
+const sortTheInnerContent = (words) => words.split(' ').map(el => change(el)).join(' ');
+
+
+const change = (str) => {
+  let str1, str2;
+  if(str.length > 3){
+    str1 = str.slice(1,-1);
+    str2 = str1.split('').sort().reverse();
+    str2.unshift(str[0]);
+    str2.push(str[str.length - 1]);
+  } else {
+    return str;
+  }
+  return str2.join('');
+}
+```
